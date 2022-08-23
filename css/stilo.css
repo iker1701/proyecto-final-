@@ -13,6 +13,7 @@ body{
 .confirmacion{
 	text-align: center;
 	font-family: Lobster ;
+	font-size: 40px;
 }
 
 .carousel-item img {
@@ -89,4 +90,52 @@ body{
 
 .pagar{
 
+}
+.mapa{
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.form{
+	text-align: center;
+	font-family: Baskerville;
+	width: 300px;
+	height: 50px;
+}
+
+.form-son{
+	display: flex;
+	flex-direction:column;
+}
+.producto2{
+	width: auto;
+	height: 300px;
+}
+.caca{
+	height: 50px;
+	width: 150px;
+}
+.papa{
+	height: 50px;
+	width: 100px;
+	margin-bottom: 20px;
+}
+.papa option{
+	text-align: center;
+}
+.flex-confirmacion{
+	display: flex;
+	align-items: center;
+	justify-content:  center;
+}
+
+.flex-confirmacion img{
+	margin-right: 50px;
+	border: 20px black dotted;
 }
